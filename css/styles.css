@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h2,
+h4,
+p {
+  margin: 0;
+}
+
+body {
+    padding-left: 410px;
+    padding-top: 240px;
+    font-family: 'Karla', sans-serif;
+}
+
+#container {
+  width: 640px;
+  height: 480px;
+  /* border: 3px solid red; */
+  box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.45);
+  border-radius: 5px; /* arronti les angles */
+  overflow: hidden; /* quand on arrondit les angles, les div du bas à l'intérieur dépassent 
+  et font des angles droit, cette propriété fait qu'on coupe ce qui dépasse */
+}
+
+#top {
+  width: 100%;
+  height: 45%;
+  /* border: 3px solid orange; */
+  padding: 40px;
+}
+
+#top h2 {
+    color:#2ab2af;
+    margin-bottom: 15px;
+}
+
+#top h4 {
+    color: #c0df34;
+    margin-bottom: 20px;
+}
+
+#top p {
+    color:#98a6bd;
+}
+
+#bottom {
+  width: 100%;
+  height: 55%;
+  /* border: 3px solid purple; */
+  color: white;
+}
+
+#box-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  /* border: 3px solid blue; */
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 30px;
+}
+
+#box-left h4 {
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px; 
+}
+
+button:hover {
+   cursor: pointer;
+   background-color: #A9C42D;
+   transform: scale(1.02);
+}
+
+#price-container {
+    margin-bottom: 15px;
+}
+
+#price {
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#month {
+    display: inline-block;
+    vertical-align: middle;
+    color:#e5eff5;
+    margin-left: 10px;
+}
+
+#sentence {
+    margin-bottom: 25px;
+}
+
+#box-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  /* border: 3px solid green; */
+  vertical-align;
+  background-color: #13e8e4;
+  padding: 30px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
